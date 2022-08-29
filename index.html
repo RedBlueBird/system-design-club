@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MSJ System Design Club</title>
+    <link rel="stylesheet" href="assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/vendors/jquery/jquery.min.js"></script>
+    <script src="assets/js/loader.js"></script>
+    <link rel="stylesheet" href="assets/css/ecostyle.css">
+</head>
+
+<body>
+    <div class="hiro-loader"></div>
+    <header class="hiro-header home-header" id="top">
+        <nav>
+            <div class="container">
+                <div class="hiro-nav">
+                    <a href="index.html" class="nav-brand">
+                        <img src="assets/images/logo.svg" alt="Hiro" class="logo">
+                        <img src="assets/images/logo_white.svg" alt="Hiro" class="logo-white">
+                    </a>
+                    <button class="hiro-nav-popup-toggle">
+                        <svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Hiro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hiro-agency" transform="translate(-964.000000, -37.000000)" fill="#FFFFFF">
+                                    <g id="Menu" transform="translate(964.000000, 37.000000)">
+                                        <g id="menu">
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="7.50795322" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="14.9964327" width="19.9609942" height="2.4951462"></rect>
+                                            <rect id="Rectangle" fill-rule="nonzero" x="-8.05281767e-14" y="0.0194736842" width="19.9609942" height="2.4951462"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container wow fadeInUp">
+            <div id="hiroHeaderCarousel" class="hiro-header-carousel carousel slide" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="carousel-item-title" data-animation="animated fadeInRight" data-number="01">
+                                    <span>MSJ System Design Club</span>
+                                </h1>
+                                <p class="carousel-item-description" data-animation="animated fadeInRight">
+                                    Bi-weekly meetings on Monday in Ms. Mathis' room B34.
+                                </p>
+                                <ul class="carousel-item-social-links nav" data-animation="animated fadeInRight">
+                                    <li>
+                                        <a href="https://discord.gg/RAeyhxrppn" class="link-hover-fx" target="_blank">DISCORD</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="link-hover-fx" target="_blank">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/msj.systems.design/" class="link-hover-fx" target="_blank">INSTAGRAM</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCrQ8aiWTddMZOHA1m22IOBA" class="link-hover-fx" target="_blank">YOUTUBE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/images/club-location.jpg" alt="We meet at classroomm B34" class="img-fluid w-100 rounded" width="372px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ol class="carousel-indicators">
+                    <li data-target="#hiroHeaderCarousel" data-slide-to="0" class="active"></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="hiro-nav-popup-modal">
+        <div class="hiro-nav-popup-modal-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 menu-wrapper">
+                        <ul class="nav hiro-main-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#topics" class="nav-link">Meeting Topics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#logs" class="nav-link">Past Meetings</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="col-md-6 blog-posts text-white">
+                        <h5 class="popup-blog-headng">Blog</h5>
+                        <div class="media mb-4">
+                            <img src="assets/images/Blog_small2.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+                            <div class="media-body align-self-end">
+                                <h5 class="popup-blog-post-title">Ambitious <br> designs</h5>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <img src="assets/images/Blog_small1.jpg" alt="blog" width="86px" class="img-fluid mr-4">
+                            <div class="media-body align-self-end">
+                                <h5 class="popup-blog-post-title">The Collection <br> Cover Archive</h5>
+                            </div>
+                        </div>
+                        <p><a href="blog.html" class="text-white link-hover-fx text-decoration-none" class="font-weight-medium">View more</a></p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-primary hiro-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center wow fadeInUp">
+                    <h2 class="section-title mb-3">
+                        Check Out Our Summer 2022 Videos!
+                    </h2>
+                    <p class="section-text-ct">
+                        Your one-stop-shop to finally learn: <br />
+                        - Why we have to keep accepting cookies <br />
+                        - How Instagram satisfy its users <br />
+                        - How google pops a zillion results in a second <br />
+                        - Youtube recommendation system! <br />
+                    </p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp">
+                    <iframe width="582" height="327" src="https://www.youtube.com/embed/gIorRS9zxqc" title="MSJ Systems Design Intro Meeting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Lecture Slide Resources <a href="https://drive.google.com/drive/folders/1PWb9IriMS5R8brYK7GkvmDXEsOO9pg7W?usp=sharing" target="_blank">Click Here</a></p>
+                    <a href="https://www.youtube.com/watch?v=gIorRS9zxqc&list=PLIdRyUe6j-qvu4kyf7Vyjodc7Co2i6TwV&index=1" target="_blank">
+                        <button class="hiro-btn-outline">VIEW MORE</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hiro-section" id="topics">
+        <div class="container">
+            <div class="service-section">
+                <h2 class="section-title career-section-title">Meeting Topics</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Fundamentals</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">Load Balancing</li>
+                            <li class="list-group-item">Caching</li>
+                            <li class="list-group-item">Scaling</li>
+                            <li class="list-group-item">Databases</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Intermediate</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">Transitional Data Services</li>
+                            <li class="list-group-item">APIs</li>
+                            <li class="list-group-item">Data Flow</li>
+                            <li class="list-group-item">High Level Component Design</li>
+                            <li class="list-group-item">CAP Theorem</li>
+                            <li class="list-group-item">ACID Durability</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0 wow fadeInUp">
+                        <h6 class="service-category-title">Advanced</h6>
+                        <ul class="service-list list-group list-group-flush">
+                            <li class="list-group-item">Architectural Design</li>
+                            <li class="list-group-item">Proxies</li>
+                            <li class="list-group-item">Data Hashing</li>
+                            <li class="list-group-item">Data Partitioning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section hiro-section" id="logs">
+        <div class="container">
+            <h2 class="section-title career-section-title">Meeting Logs</h2>
+            <p>Stay tuned for more!</p>
+
+            <!-- <div class="row">
+                <div class="col-md-6wow fadeInUp">
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works4.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works2.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                </div>
+                <div class="col-md-6 project-column-indented">
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works3.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                    <div class="project-card wow fadeInUp">
+                        <img src="assets/images/Works1.png" alt="Project" class="project-thumbnail">
+                        <h6 class="project-title">See what we do</h6>
+                        <p class="Project-category">Branding system / Motion design </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="#!" class="load-more-link">VIEW ALL PROJECTS</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="team-section hiro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 wow fadeInUp">
+                    <h2 class="section-title">Meet <br> The Team</h2>
+                    <p class="section-text-light">
+                        Want to apply as officer? <br />
+                        <a href="mailto:msj.systems.design@gmail.com">Contact us! </a>
+                    </p>
+                    <div>
+                        <a class="carousel-control-prev" href="#hiroTeamCarousel" role="button" data-slide="prev">
+                            <img src="assets/images/arrow_left.png" alt="left arrow" width="20px">
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#hiroTeamCarousel" role="button" data-slide="next">
+                            <img src="assets/images/Arrow_right.png" alt="right arrow" width="20px">
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-7 wow fadeInRight">
+                    <div id="hiroTeamCarousel" class="hiro-team-carousel carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="team-card" data-animation="animated flipInY">
+                                            <img src="assets/images/team/brandon.jpg" alt="Brandon Yan Photo" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Brandon Yan</h6>
+                                                <p class="team-member-title">President</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="team-card featured" data-animation="animated flipInY">
+                                            <img src="assets/images/team/brian-blur-ai.jpg" alt="Brian Da Cruz Photo" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Brian Da Cruz</h6>
+                                                <p class="team-member-title">Vice President</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="team-card" data-animation="animated flipInY">
+                                            <img src="assets/images/team/jeffrey.jpg" alt="Jeffrey Zhang Photo" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Jeffrey Zhang</h6>
+                                                <p class="team-member-title">Secretary</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="team-card featured" data-animation="animated flipInY">
+                                            <img src="assets/images/team/joshua.png" alt="Joshua Diao Photo" class="team-member-thumbnail">
+                                            <div class="team-member-details">
+                                                <h6 class="team-member-name">Joshua Diao</h6>
+                                                <p class="team-member-title">Treasurer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="career-section hiro-section bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="section-title wow fadeInLeft">
+                        Career <br> Work with us
+                    </h2>
+                </div>
+                <div class="col-md-6 wow fadeInRight">
+                    <p class="section-text-ct mb-5">Our work transforms how customers experience your business – creating distinction, shifting perceptions and driving growth.</p>
+                    <button class="hiro-btn-outline">VIEW MORE</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="contact-section hiro-section">
+        <div class="container wow fadeInUp">
+            <h2 class="section-title">MSJ System Design Club</h2>
+            <div class="contact-address">
+                <div class="row">
+                    <div class="col-md-12 mb-4">
+                        <p class="font-weight-medium"><a href="mailto:msj.systems.design@gmail.com">msj.systems.design@gmail.com</a></p>
+                        <a class="mr-2 mb-2 p-1 zoom" href="https://www.instagram.com/msj.systems.design/" role="button" target="_blank">
+                            <img style="width:40px;height:40px" src="assets/images/logo/instagram.svg" alt="Instagram">
+                        </a>
+                        <a class="mr-2 mb-2 p-1 zoom" href="https://discord.gg/RAeyhxrppn" role="button" target="_blank">
+                            <img style="width:40px;height:40px" src="assets/images/logo/discord.svg" alt="Discord">
+                        </a>
+                        <a class="mr-2 mb-2 p-1 zoom" href="https://www.youtube.com/channel/UCrQ8aiWTddMZOHA1m22IOBA" role="button" target="_blank">
+                            <img style="width:40px;height:40px" src="assets/images/logo/youtube.svg" alt="Youtube">
+                        </a>
+                        <a class="mr-2 mb-2 p-1 zoom" href="mailto:msj.systems.design@gmail.com" role="button" target="_blank">
+                            <img style="width:40px;height:40px" src="assets/images/logo/email.svg" alt="Email">
+                        </a>
+                    </div>
+                    <div class="col-md-2 d-flex align-items-end">
+                        <a href="#top" class="go-top-btn">
+                            <img src="assets/images/arrow_up@1x.svg" alt="arrow up">
+                            <span class="sr-only">Go to top</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="hiro-footer wow fadeInUp">
+        <div class="container d-flex flex-wrap justify-content-lg-between align-items-center">
+            <p class="mb-0 footer-text">Huge thx to <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash for the website template</a></p>
+            <!-- <nav class="footer-nav nav">
+                <a href="#!" class="nav-link">Terms and Conditions</a>
+                <a href="#!" class="nav-link">Privacy Policy</a>
+                <a href="#!" class="nav-link">Cookie Policy</a>
+            </nav> -->
+        </div>
+    </footer>
+
+    <script src="assets/vendors/wowjs/wow.min.js"></script>
+    <script src="assets/vendors/popper.js/popper.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

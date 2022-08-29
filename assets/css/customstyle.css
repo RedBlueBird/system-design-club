@@ -1,0 +1,48 @@
+.zoom {
+    transition: transform .2s;
+}
+
+    .zoom:hover {
+        transform: scale(1.2);
+    }
+
+.sponsor {
+    width: 300px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.shadow-lg--hover:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow {
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
+}
+
+.btn {
+    padding: 16px 20px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.btn-app-download {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
